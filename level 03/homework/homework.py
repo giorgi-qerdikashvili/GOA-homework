@@ -40,3 +40,8 @@ saxeli = "giorgi"
 print (saxeli*10)
 
 # ყველა ოპერაცია გამრავლების გარდა გვაძლევს typeerror-ს გამრავლება კი სტრინგს n რაოდენობით გამოიტანს
+
+
+
+
+print("Hello " + input("whats your name: ") +"!" )
