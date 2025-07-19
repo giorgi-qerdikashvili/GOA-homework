@@ -1,0 +1,5 @@
+num1 = int(input("number 1 is: "))
+num2 = int(input("number 2 is: "))
+print("num1 > num2", num1 > num2)
+print("num1 < num2" , num1 < num2)
+print("num1 == num 2" , num1 == num2) 
