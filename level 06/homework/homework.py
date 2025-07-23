@@ -40,4 +40,4 @@ print(type(var4))
 
 print(type(int(input("give me an integer: "))))
 print(type((input("give me a string: " ))))
-print(type(bool(input("give me an float: "))))
+print(type(float(input("give me an float: "))))
