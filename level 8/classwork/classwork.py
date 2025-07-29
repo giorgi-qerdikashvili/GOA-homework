@@ -1,0 +1,5 @@
+a = input("sigrdze: ")
+b = input("sigane: ")
+print((a*2)+(b*2))
+age = input("give age: ")
+print(age + 10)
