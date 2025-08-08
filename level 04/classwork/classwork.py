@@ -1,13 +1,18 @@
-var = "gio"
-print(var*10)
+name = input("whats your name customer? ")
+print("Hello " + name +"!")
 
-# კომენტარი გვეხმარება კოდის გარკვევაში და გვაწვდის ინფორმაციას რომ არ დავიბნეთ, იწერება "#"თ
+num1 = input("number 1 is :")
+num2 = input("number 2 is :")
+print("sum of number 1 and 2 is: " + str(int(num1) + int(num2)))
 
-var1 =10
-var2 = 1.5
-var3 = var1 * var2
-print(var3*var3)
+age = input("whats your age? ")
+print(type(int(age)))
 
+age = 23
 name = "giorgi"
-surname = "qerdikashvili"
-print("Hello, my name is" + name +  " and my surname is " + surname + ".")
+bool = True 
+progress = 1.4
+print(type(age))
+print(type(name))
+print(type(bool))
+print(type(progress))

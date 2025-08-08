@@ -1,8 +1,9 @@
-# input არის ინფორმაციის მიღების საშვალება და output არის მიღებული ინფორმაციისას მოხდენილი მოქმედების შედეგი 
-#ინპუტი არის როდესაც კომპიუტერის ღილაკს ვაჭერთ და აუტპუტი არის ეკრანზე მომხდარი შედეგი როგორიცაა წინადადებების წერა
+#and და or ოპერატორები არის ლოგიკური ოპერატორები მათ ვიყენებთ ბულიანი მნიშვნელობის მისაღევად მაგალითად true and true = true false or false = false
 
 name = input("whats your name? ")
-age = input("whats your age? ")
-weight = input("whats your weight? ")
-print("hello" + name + "your " + age + "years old and weigh" + weight + "kg")
+print("name = giorgi: ", name == "giorgi")
 
+print(True and False)
+print(False and False)
+print(True or False)
+print(False or False)
