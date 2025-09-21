@@ -14,13 +14,13 @@ print(name[8])
 print(name[2])
 print(name[6])
 
-num = ["1", "3", "11", "24", "446", "1213", "4555"]
+num1 = ["1", "3", "11", "24", "446", "1213", "4555"]
 p = 0
 while p != 7:
-    print(num[p])
+    print(num1[p])
     p = p + 1
-for num in num:
-    print(num)
+for p in num1:
+    print(p)
 
 var = [12 , True, 41, 1441, 4445, 5656, 33]
 var[2] = "vashli"
