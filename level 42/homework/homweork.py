@@ -71,7 +71,8 @@ nums = [10, 20, 30]
 num = int(input('give a number'))
 if num in nums:
     print('already in list')
-else : nums.append(num)
+else : nums.append(40)
+print(nums)
 # 19)შექმენი სია letters = ["a", "b", "c"]. მომხმარებელს შემოატანინე ასო, შემდეგ insert()-ით ჩასვი ის სიის შუაში (ცენტრალურ ინდექსზე). დაბეჭდე სია.
 letters = ["a", "b", "c"]
 let = input('give a letter ')
