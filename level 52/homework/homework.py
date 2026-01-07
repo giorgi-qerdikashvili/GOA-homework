@@ -45,7 +45,7 @@ l1 = ['feradze','janashia','todua','bugadze','nemsiwveridze']
 loop = 0
 while loop < len(l1):
     if l1[loop].islower():
-        l1.insert(loop+ 1,l1[loop].upper())
+        l1.insert(loop+1,l1[loop].upper())
         l1.pop(loop)
     elif l1[loop].isupper():
         l1.insert(loop-1,l1[loop].lower())
@@ -61,14 +61,14 @@ for i in l1:
             l2.append("+")
         elif lett.isupper():
             l2.append('-')
+print(l2.count('-'))
+print(l2.count('+'))
 if l2.count('-')% 2 == 0:
     while "+" in l2:
         l2.remove("+")
-elif l2.count('+')% 2 != 0:
+elif l2.count('-')% 2 != 0:
     while '-' in l2:
         l2.remove('-')
-print(l2.count('-'))
-print(l2.count('+'))
 print(l2)
 # 7) შექმენით წინადადების სტრინგის ცვლადი და ცარიელი სია, ცარიელ სიაში ჩაამატეთ სიტყვები ცალ-ცალკე, არა ასოები, არამედ მთლიანი სიტყვები. ამაზე იჭყლიტეთ ტვინი, წარმატებებს გისურვებთ.
 sent = 'this is a sentence'
