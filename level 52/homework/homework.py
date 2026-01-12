@@ -81,7 +81,6 @@ for letter in sent:
     elif letter == ' ':
         l1.append(word)
         word = ''
-        continue
 if word:
     l1.append(word)
 print(l1)
