@@ -1,0 +1,50 @@
+h2{
+    font-size: 57px;
+     color: yellow;
+      background-color: orange;
+       border: 5px solid green;
+}
+p{
+    font-size: 57px;
+     color: yellow;
+      background-color: orange;
+       border: 5px solid green;
+}
+div table{
+    font-size: 18px;
+    color: green;
+    background-color: red;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+i{
+    background-color: red;
+    font-size: 90px;
+}
+html{
+    background-color: purple;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border: 20px solid black;
+}
+form{
+    font-size: 100px;
+    height: 100px ;
+}
+button{
+    height: 200px;
+    width: 300px;
+    background-color: darkslateblue;
+    color: darksalmon;
+    font-size: 50px;
+    border: 12px dotted black;
+}
