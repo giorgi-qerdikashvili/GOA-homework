@@ -71,11 +71,11 @@ for w in words:
         print(w, count)
         duplicants.append(w)
 
-number = 4312
-guess = input('guess the number')
-tries = 0
-while int(guess) != number:
-    tries += 1
-    print('wrong guess!')
-    guess = input('guess the number')
-print('correct, you guessed wrong' , tries , 'times!')
+# number = 4312
+# guess = input('guess the number')
+# tries = 0
+# while int(guess) != number:
+#     tries += 1
+#     print('wrong guess!')
+#     guess = input('guess the number')
+# print('correct, you guessed wrong' , tries , 'times!')
