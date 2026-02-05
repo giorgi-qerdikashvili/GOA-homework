@@ -1,0 +1,55 @@
+#a{
+    color: aliceblue;
+    font-size: 40px;
+    background-color: salmon;
+}
+#b h1{
+    color: blueviolet;
+    background-color: deepskyblue;
+}
+main h1,h2{
+    font-size: 60px;
+    color: red;
+}
+#d,#e{
+    background-color: firebrick;
+}
+#o1{
+    color: red;
+}
+#o2{
+    color: greenyellow;
+}
+#o3{
+    color: goldenrod;
+}
+#o4{
+    color: green;
+}
+#o5{
+    color: gray;
+}
+#s1{
+    color: cornsilk;
+}
+#s2{
+    color: darkgreen;
+}
+#s3{
+    color: silver;
+}
+#b1{
+    height: 20px;
+    width: 300px;
+    background-color: yellowgreen;
+}
+#b2{
+    height: 50px;
+    width: 230px;
+    background-color: honeydew;
+}
+#b3{
+    height: 320px;
+    width: 120px;
+    background-color: olivedrab;
+}
