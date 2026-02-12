@@ -1,0 +1,11 @@
+.a{
+    color: red;
+    size: 40px;
+    background-color: green;
+    border: 3px solid purple;
+}
+.b{
+    color: orange;
+    size: 20px;
+    background-color: purple;
+}
