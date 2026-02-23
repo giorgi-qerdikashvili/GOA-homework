@@ -1,0 +1,26 @@
+<!-- 1) კომენტარის სახით ახსენი როგორ დავამატოთ ფონტი css-ში
+2) კომენტარის სახით ახსენი რა განსხვავებაა @import და <link> შორის
+3) შექმენი მარტივი ვებგვერდი (სათაური + პარაგრაფი) და გამოიყენე განსხვავებული ფონტი სათაურისთვის და ტექსტისთვის. გამოიყენე Google Fonts (მაგ: Poppins, Roboto)სათაური იყოს ერთი ფონტით, ტექსტი – მეორეთი
+4) შექმენი Quote Card. ციტატის ტექსტი იყოს (მაგ: Merriweather), ავტორის სახელი იყოს განსხვავებული, უფრო მინიმალისტური ფონტით (მაგ: Lato)
+5) შექმენი Hero სექცია დიდი სათაურით.დააიმპორტე Google Fonts-დან ფონტი (მაგ: Poppins ან Oswald), სათაურს დაუმატე text-shadow, ჩრდილი იყოს ოდნავ ქვემოთ ჩამოწეული. -->
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="homework.css">
+    </head>
+    <body>
+        <!-- ფონტს ვამატებთ google fontიდან და ვაკოპირებთ იმპორტს ვაგდებთ css ის დასაწყსში და როცა გვინდა რაღაცას ეგ ფონტი მივცეთ ვაკოპირებთ და ვსვამთ font familyს -->
+        <!-- ლინკი კეთდება ჰეად ტაგში. კინკი რეფერენცად იყენებს დალინკულ ნივთებს ხოლო იმპორტს ეს ფაილები შემოაქ და ისე იყენებს -->
+        <h1>This is a header</h1>
+        <p>and a paragraph</p>
+        <div style="margin: 10%;border: black 5px solid; text-align: center; font-size: 50px; margin-left: 20%; margin-right: 20%;">
+            <p id="a">"If it ain't broke, don't fix it".</p>
+            <p id="b" style="text-align: right; margin-right: 20%;">-Bert Lance</p>
+            
+            <h2><b>HERO</b></h2>
+        </div>
+    </body>
+</html>

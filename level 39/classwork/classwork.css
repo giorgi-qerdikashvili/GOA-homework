@@ -1,0 +1,27 @@
+#a{
+    text-decoration-line: overline;
+}
+#b{
+    text-decoration-line: line-through;
+}
+#c{
+    text-decoration-line: underline;
+}
+#d{
+    text-decoration: underline violet double;
+}
+#e{
+    text-decoration: dashed line-through lime;
+}
+#f{
+    text-decoration: dotted overline navy;
+}
+#g{
+    color: rgb(rgb(24, 97, 255));
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px rgb(182, 24, 255);
+}
+#h{
+    text-transform: capitalize;
+    text-shadow: 2px 2px 1px greenyellow;
+}

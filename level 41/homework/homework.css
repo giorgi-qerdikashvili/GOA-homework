@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+a{
+    font-size: 24px;
+}
+
+#a button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+#a p:hover{
+    font-size: 24px;
+    font-weight: bold;
+}
+#b{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#b:hover{
+    border: 2px solid greenyellow;
+    background-color: rgb(86, 86, 247);
+}
+#a li:hover{
+    border-color: rgb(118, 117, 117);
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+#a img{
+    height: 100px;
+    width: 100px;
+}
+#a img:hover{
+    height: 200px;
+    width: 200px;
+}
+#c #c1:active{
+    background-color: blueviolet;
+    color: yellow;
+    border-radius: 4px;
+}
+#c #c2{
+    border: 2px solid rgb(255, 154, 154);
+}
+#c #c2:active{
+    border: 8px solid rgb(246, 50, 50);
+}
+#card{
+    height: 200px;
+    width: 100px;
+    background-color: #bcfb56;
+    border: 4px solid rgb(47, 255, 245);
+}
+#card:hover{
+    background-color: rgb(163, 107, 215);
+}
+#card:active{
+    border: 4px solid rgb(0, 0, 0);
+}
+#d a:link{
+    color: rgb(85, 111, 255);
+    text-decoration: none;
+}
+#e:link{
+    background-color: rgb(255, 136, 0);
+    border: 4px #ce94f3 solid;
+}
+#f:link{
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(98, 98, 98);
+    color: #ce94f3;
+}
+#g a:link{
+    color: green;
+    font-weight: bold;
+}
+#g a:visited{
+    color: rgb(111, 0, 128);
+    font-weight: bold;
+}
+#h a:link{
+    color: green;
+}
+#h a:visited{
+    color: rgb(151, 31, 255);
+}
+#h a:hover{
+    color: rgb(255, 0, 0);
+}
+#h a:active{
+    color: rgb(0, 0, 0);
+}

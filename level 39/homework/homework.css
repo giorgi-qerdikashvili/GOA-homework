@@ -1,0 +1,30 @@
+#a p{
+    text-transform: uppercase;
+}
+#b p{
+    text-transform: lowercase;
+}
+#c p{
+    text-transform: capitalize;
+}
+#d p{
+    text-transform: uppercase lowercase capitalize;
+}
+#e{
+    text-shadow: 3px 3px 3px black;
+}
+#f{
+    color: gray;
+    text-shadow: 1.5px -2px 1px rgba(128, 128, 128, 0.765)
+}
+#g{
+    color: rgb(255, 36, 153);
+    text-shadow: 1.5px 1.5px  #4362fbcf;
+}
+#h{
+    color: rgb(230, 230, 230);
+    text-shadow: 0px 0px 4px #00ff08;
+}
+#i{
+    text-shadow: 0px 2px 2px #15ff00;
+}
