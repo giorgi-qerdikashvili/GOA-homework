@@ -1,0 +1,88 @@
+table{
+    border-collapse: collapse;
+    margin: 40px;
+}
+#a{
+    height: 120px;
+    width: 300px;
+    text-align: center  ;
+}
+
+#a th{
+    color: white;
+    background-color: rgb(0, 129, 116) ;
+}
+#a tr:nth-child(3){
+    background-color: rgb(217, 216, 216);
+    color: rgb(0, 129, 116);
+}
+#b{
+    height: 200px;
+    width: 450px;
+    text-align: center;
+}
+#b th{
+    background-color: cyan;
+    border: 1.5px solid rgb(88, 180, 180);
+}
+#b td,#b tr{
+    border: 1.5px solid rgb(88, 180, 180);
+}
+#c{
+    border: 1px black solid;
+}
+.st1{
+    background-color: rgb(252, 217, 154);
+}
+#c th, #c tr{
+    border: 2px ridge rgb(117, 126, 0);
+}
+#l2{
+    list-style: circle;
+}
+#l3{
+    list-style: none;
+}
+#l4{
+    list-style: square;
+}
+#o1{
+    list-style: decimal-leading-zero;
+}
+ol,ul{
+    margin: 1%;
+}
+#o3{
+    list-style: georgian;
+}
+#o4{
+    list-style: upper-roman;
+}
+#o5{
+    list-style: armenian;
+}
+#o6{
+    list-style: lower-alpha;
+}
+#o7{
+    list-style: none;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+#dv ol{
+    list-style: inside decimal;
+}
+#dv ul{
+    list-style: inside;
+}
+#i1{
+    list-style-image: url(image.png)    ;
+}
+#i2{
+    list-style-image: url(remove.png);
+}
+#i3{
+    list-style-image: url(square.png);
+}

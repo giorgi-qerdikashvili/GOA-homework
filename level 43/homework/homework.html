@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="homework.css">
+    </head>
+    <body>
+        <table id="a">
+            <tr>
+                <th>rank</th>
+                <th>name</th>
+                <th>points</th>
+                <th>team</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>domenic</td>
+                <td>88000</td>
+                <td>dcode</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sally</td>
+                <td>72000</td>
+                <td>students</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>nick</td>
+                <td>52000</td>
+                <td>dcode</td>
+            </tr>
+        </table>
+        <table id="b">
+            <tr>
+                <th>first name</th>
+                <th>last name</th>
+                <th>date of birth</th>
+                <th>hometown</th>
+                <th>kids</th>
+                <th>mortgage</th>
+            </tr>
+            <tr>
+                <td>jill</td>
+                <td>smith</td>
+                <td>dec 15 1974</td>
+                <td>boise</td>
+                <td>2</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>eve</td>
+                <td>jackson</td>
+                <td>may 05 1981</td>
+                <td>phoenix</td>
+                <td>1</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>doe</td>
+                <td>apr 21 1984</td>
+                <td>omaha</td>
+                <td>no</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>jamie</td>
+                <td>curtis</td>
+                <td>jul 17 1969</td>
+                <td>bakersfield</td>
+                <td>3</td>
+                <td>yes</td>
+            </tr>
+        </table>
+        <table id="c">
+            <tr>
+                <th style="background-color: #d0c600;">numbers</th>
+                <th style="background-color: #da8f16;">singular</th>
+                <th style="background-color: rgb(21, 164, 21);">plural</th>
+            </tr>
+            <tr>
+                <th class="st1">one</th>
+                <th style="background-color: salmon;">boy</th>
+                <th class="st1">boys</th>
+            </tr>
+            <tr>
+                <th style="background-color: red;">two</th>
+                <th style="background-color: whitesmoke;">man</th>
+                <th style="background-color: rgb(16, 211, 211);">men</th>
+            </tr>
+            <tr>
+                <th class="st1">three</th>
+                <th style="background-color: olive;">table</th>
+                <th class="st1">tables</th>
+            </tr>
+            <tr>
+                <th style="background-color: gray;">four</th>
+                <th style="background-color: #c06a01;">animal</th>
+                <th class="st1">animals</th>
+            </tr>
+        </table>
+        <!-- :nth-child() ს გადავცემთ odd, even ს რომ გასტილოს ყოველი კენტი ან ლუწი ობიექტი, ან ციფრებს რომ გასტილოს child ობიექტი რომელიც მაგ რიგზე დგას -->
+        <!-- tr:nth-child(2),td:nth-child(even),table:nth-child(9) -->
+        <!-- border-collapse:collapse ამცირებს დაშორებას უჯრებსშორის -->
+        <!-- ol დალაგებული სია რომელიც ინომრება. ul დაუნომრილი სია რომელიც ინომრება სიმბოლოებით -->
+        <div>
+            <ul id="l1">
+                <li>i1</li>
+                <li>i2</li>
+                <li>i3</li>
+            </ul>
+            <ul id="l2">
+                <li>c1</li>
+                <li>c2</li>
+                <li>c3</li>
+            </ul>
+            <ul id="l3">
+                <li>k1</li>
+                <li>k2</li>
+                <li>k3</li>
+            </ul>
+            <ul id="l4">
+                <li>s1</li>
+                <li>s2</li>
+                <li>s3</li>
+            </ul>
+            <ol id="o1">
+                <li>a1</li>
+                <li>a2</li>
+                <li>a3</li>
+            </ol>
+            <ol id="o2">
+                <li>b1</li>
+                <li>b2</li>
+                <li>b3</li>
+            </ol>
+            <ol id="o3">
+                <li>g1</li>
+                <li>g2</li>
+                <li>g3</li>
+            </ol>
+            <ol id="o4">
+                <li>d1</li>
+                <li>d2</li>
+                <li>d3</li>
+            </ol>
+            <ol id="o5">
+                <li>e1</li>
+                <li>e2</li>
+                <li>e3</li>
+            </ol>
+            <ol id="o6">
+                <li>e1</li>
+                <li>e2</li>
+                <li>e3</li>
+            </ol>
+            <ol id="o7">
+                <li>e1</li>
+                <li>e2</li>
+                <li>e3</li>
+            </ol>
+
+        </div>
+        <div id="dv">
+            <ol>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem maiores consequuntur eum impedit dolorem obcaecati maxime, excepturi consectetur facere quasi sequi nostrum molestiae repudiandae nesciunt laboriosam doloremque quae quidem numquam!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aut officia perspiciatis nesciunt molestias? Iste deleniti totam sapiente, nisi dolores aut provident laborum quibusdam ipsam ad ut ex vitae eligendi?</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam itaque reiciendis commodi voluptatum excepturi cumque quae quos nemo quisquam aspernatur, nihil modi doloribus sed consequuntur eum dolorem porro explicabo amet!</li>
+            </ol>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem maiores consequuntur eum impedit dolorem obcaecati maxime, excepturi consectetur facere quasi sequi nostrum molestiae repudiandae nesciunt laboriosam doloremque quae quidem numquam!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aut officia perspiciatis nesciunt molestias? Iste deleniti totam sapiente, nisi dolores aut provident laborum quibusdam ipsam ad ut ex vitae eligendi?</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam itaque reiciendis commodi voluptatum excepturi cumque quae quos nemo quisquam aspernatur, nihil modi doloribus sed consequuntur eum dolorem porro explicabo amet!</li>
+            </ul>
+
+        </div>
+        <div>
+            <ul id="i1">
+                <li>k1</li>
+                <li>k2</li>
+                <li>k3</li>
+            </ul>
+            <ul id="i2">
+                <li>k1</li>
+                <li>k2</li>
+                <li>k3</li>
+            </ul>
+            <ul id="i3">
+                <li>k1</li>
+                <li>k2</li>
+                <li>k3</li>
+            </ul>
+            <!-- ლისტი არის გამოყოფილი დალაგებულად და დაულაგებელად მათი არევა შექმნის პრობლემებს -->
+        </div>
+    </body>
+</html>

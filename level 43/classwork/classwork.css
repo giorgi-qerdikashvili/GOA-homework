@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(1){
+    background-color: green;
+}
+tr, td, th{
+    border: 2px solid black;
+}
+tr:nth-child(3){
+    background-color: cyan;
+}
+tr:nth-child(5){
+    background-color: cyan;
+}
