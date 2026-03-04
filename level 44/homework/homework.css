@@ -1,0 +1,58 @@
+#a label{
+    color: rgb(0, 177, 177);
+    font-weight: 800;
+}
+#a input{
+    outline: none;
+    box-shadow: 0px 0px 5px  black;
+}
+#b input{
+    border-radius: 30px;
+    height: 30px;
+    width: 170px;
+    color: red;
+    border: 2px solid red;
+}
+#b input:hover{
+    background-color: red;
+}
+#c {
+    background-color: rgb(151, 236, 236);
+    width: 200px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+#c input{
+    outline: none;
+}
+#d {
+    background-color: rgb(102, 140, 255);
+    width: 500px;
+    height: 250px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+#d input{
+    height: 40px;
+    width: 400px;
+}
+#f button{
+    border: 2px solid red;
+}
+#e1{
+    padding: 20px;
+}
+#e2{
+    padding: 70px;
+}
+#e3{
+    padding: 2%;
+}
+#e4{
+    padding: 10%;
+}
+#e5{
+    padding: 210px;
+}
