@@ -1,0 +1,12 @@
+.a{
+    width: 700px;
+    height: 700px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.b{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
