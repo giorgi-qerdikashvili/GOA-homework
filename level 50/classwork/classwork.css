@@ -1,0 +1,33 @@
+.parent{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+}
+.parent1{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.child1{
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+}
+.parent2{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.child2{
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+}
