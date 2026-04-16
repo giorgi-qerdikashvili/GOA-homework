@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #000000;
+    background-color: hsl(0, 0%, 94%);
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "League Spartan", sans-serif;
+}
+#main{
+    background-color: white;
+    width: 51%;
+    height: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainer{
+    height: 75%;
+    width: 78%;
+}
+#p1{
+    display: flex;
+    height: 50%;
+}
+#p2{
+    display: flex;
+    height: 50%;
+}
+#c1{
+    width: 38%;
+}
+#c2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+#prompt1,#prompt2,#prompt3{
+    background-color: hsl(290, 30%, 96%);
+    color: hsl(301, 41%, 24%);
+    height: 50px;
+    width: 400px;
+    display: flex;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+#c2 img{
+    height: 14px;
+    margin-top: 18px;
+    margin-left:7px;
+}
+#c2 p{
+    margin-left: 30px;
+    font-weight: 700;
+    align-self: center;
+    font-size: 16px;
+}
+#prompt1{
+    margin-left: 40px;
+}
+#prompt2{
+    margin-left: 120px;
+}
+#prompt3{
+    align-self: flex-end
+}
+#c1 h1{
+    color: hsl(301, 45%, 22%);
+    font-size: 50px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+#c1 p{
+    padding-top: 30px;
+    color: hsl(301, 45%, 22%);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.flexer{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.flex2{
+    color: hsl(321, 43%, 62%);
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+}
+#c3, #c4, #c5{
+    background-color: hsl(301, 45%, 22%);
+    color: white;
+    height: 215px;
+    width: 315px;
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+}
+#p2 img{
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#inside1, #inside2, #inside3{
+    margin: 40px 10px 0px 30px;
+}
+#c3{
+    margin: 25px 28px 0px 0px
+}
+#c4{
+    margin: 45px 28px 0px 0px;
+}
+#c5{
+    margin: 60px 0px 0px 0px;
+}
