@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Epilogue", sans-serif;
+}
+main{
+    width: 2050px;
+    height: 1355px;
+}
+#upper{
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+}
+#upper h1{
+    font-size: 52px;
+    padding-right: 30px;
+}
+#upper h3 {
+    font-size: 22px;
+    color: hsl(0, 0%, 41%);
+}
+#upperl, #upperr{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 60px;
+}
+#upperl img{
+    width: 15px;
+}
+
+#Login{
+
+}
+#upper button{
+    background-color: #fff;
+    border: 2px solid hsl(0, 0%, 41%);
+    color: hsl(0, 0%, 41%);
+    width: 155px;
+    margin-left: 5px;
+    border-radius: 20px;
+    height: 62px;
+    font-size: 22px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    margin-top: -5px;
+}
+#lower{
+    display: flex;
+    height: 80%;
+}
+#left{
+    width: 49%;
+    padding: 220px 0px 0px 190px;
+    word-spacing: 10px;
+}
+#left h2{
+    padding-top: 75px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    font-size: 28px;
+    word-spacing: 0px;
+    line-height: 1.5;
+    padding-bottom: 80px;
+    width: 700px;
+}
+#left button{
+    background-color: black;
+    color: white;
+    height: 85px;
+    width: 250px;
+    border: none;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Epilogue", sans-serif;
+    border-radius: 22px;
+}
+#left h1{
+    font-size: 119px;
+    word-spacing: -5px;
+}
+#imgs{
+    display: flex;
+    align-items: center;
+    height: 210px;
+    margin-top: 80px;
+    gap: 60px;
+}
+#a{
+    width: 170px;
+    height: 30px;
+}
+#b{
+    height: 55px;
+    width: 110px;
+}
+#c{
+    height: 30px;
+}
+#d{
+    height: 35px;
+}
+#right{
+    width: 51%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#i1{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 960px;
+}

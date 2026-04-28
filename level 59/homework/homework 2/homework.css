@@ -1,0 +1,112 @@
+#d2, #d3, #d4{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.st{
+    background-color: honeydew;
+}
+.rel{
+    background-color: darkblue;
+    position: relative;
+    right: 40px;
+}
+.parent{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 200px;
+}
+.parent1{
+    margin-top: 300px;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: darkred;
+}
+.child1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    top: 33%;
+    left: 33%;
+}
+.parent2{
+    margin-top: 800px;
+    height: 300px;
+    width: 300px;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child2{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+}
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 5px solid red;
+}
+.tr{
+    top: 0;
+    left: 0;
+}
+.tl{
+    top: 0;
+    right: 0;
+}
+.br{
+    bottom: 0;
+    right: 0; ;
+}
+.bl{
+    bottom: 0;
+    left: 0;
+}
+img{
+    width: 400px;
+    border: 2px solid blue;
+}
+p{
+    color: red;
+    position: relative;
+    bottom: 400px;
+    font-size: 30px;
+}
