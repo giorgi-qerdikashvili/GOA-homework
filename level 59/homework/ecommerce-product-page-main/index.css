@@ -20,6 +20,7 @@ body{
     justify-content: space-between;
 }
 #bar{
+
     display: flex;
     height: 170px;
     justify-content: space-between;

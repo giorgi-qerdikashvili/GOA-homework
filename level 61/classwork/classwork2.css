@@ -1,0 +1,24 @@
+.c1{
+    position: absolute; 
+    height: 600px;
+    width: 600px;
+    z-index: 1;
+    background-color: green;
+}
+.c2{
+    position: absolute; 
+    height: 200px;
+    width: 800px;
+    z-index: 2;
+    background-color: blue;
+    left: 200px;
+}
+.c3{
+    position: absolute; 
+    height: 300px;
+    width: 600px;
+    background-color: red;
+    z-index: 3;
+    top: 150px;
+    left: 500px;
+}

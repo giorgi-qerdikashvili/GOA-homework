@@ -1,0 +1,45 @@
+.div{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+.a{
+    background-color: rgb(255, 61, 158);
+    opacity: 0.8;
+    left: 400px;
+    z-index: 2;
+}
+.b{
+    background-color: cyan;
+    opacity: 0.8;
+    left: 700px;
+    top: 200px;
+    z-index: 3;
+}
+.c{
+    background-color: green;
+    opacity: 0.8;
+    left: 500px;
+    top: 350px;
+    z-index: 1;
+}
+.d{
+    background-color: black;
+    top: 800px;
+    border-radius: 40px;
+}
+.e{
+    top: 900px;
+    left: 100px;
+    background-color: blue;
+    z-index: 1;
+    border-radius: 40px;
+
+}
+.f{
+    top: 990px;
+    left: 190px;
+    background-color: greenyellow;
+    border-radius: 40px;
+
+}
