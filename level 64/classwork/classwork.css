@@ -1,0 +1,17 @@
+#d1{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    transition: background-color 2s, border 5s,border-radius 3s,width 6s,height 3s,transform 7s linear;
+}
+#d1:hover{
+    background-color: yellow;
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    transform: translateY(100px);
+    transition-delay: 3s;
+
+}

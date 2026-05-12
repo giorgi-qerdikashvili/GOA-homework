@@ -1,0 +1,14 @@
+/* div{
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;
+    background-image:url(image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+div{
+    height: 200px;
+    width: 300px;
+    background: url(image.png) no-repeat center/cover;
+}
