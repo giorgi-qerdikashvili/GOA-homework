@@ -16,12 +16,12 @@ div{
     background-color: gray;
     width: 200px;
     height: 200px;
-    transition: background-color 0.3s, width 0.6s, transform 1s;
+    transition: background-color 0.3s, transform 1s ease ;
+    transition-delay: 3s;
 }
 .d1:hover{
     background-color: yellow;
-    width: 500px;
-    transform: rotate(30deg);
+    transform: rotate(30deg) scale(1.2);
 }
 #d2{
     height: 100px;
@@ -59,7 +59,7 @@ img:hover{
 a{
     color: green;
     text-decoration: none;
-    transition: color 1.2s, text-decoration 1s, transform 0.3s;
+    transition: color 1.2s, text-decoration 1s, transform 0.3s ease;
 }
 a:hover{
     transform: scale(1.2);
