@@ -1,0 +1,31 @@
+div{
+    height: 200px;
+    width: 200px;
+    animation-name: cha;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+    background-color: yellow;
+}
+@keyframes cha{
+    0% {
+        background-color: yellow;
+        transform: translate(0, 0px);
+    }
+    25% {
+        background-color: yellow;
+        transform: translate(0, 50px);
+    }
+
+    50% {
+        background-color: blue;
+        transform: translate(50px, 50px) rotate(40deg);
+    }
+
+    100% {
+        background-color: orange;
+        transform: translate(50px, 50px) ;
+        border-radius: 50%;
+        border: 2px solid red;
+    }
+}

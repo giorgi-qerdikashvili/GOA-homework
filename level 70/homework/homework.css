@@ -1,0 +1,133 @@
+.a1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    animation-name: carr;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+.a2{
+    background-color: rgb(255, 221, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    animation-name: carr;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+.a3{
+    background-color: rgb(0, 30, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    animation-name: carr;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes carr{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-80px);
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+.b1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg) scale(1.5, 0.7);
+}
+.c1,.c2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.c1{
+    animation-name: c1;
+}
+.c2{
+    animation-name: c2;
+}
+@keyframes c1{
+    0%{
+        transform: scale(1);
+        background-color: green;
+    }
+    10%{
+        transform: scale(1.1);
+    }
+    20%{
+        transform: scale(1);
+        background-color: gray;
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    40%{
+        transform: scale(1);
+        background-color: cyan;
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    60%{
+        transform: scale(1);
+        background-color: red;
+    }
+    70%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+        background-color: green;
+    }
+}
+@keyframes c2{
+    0%{
+        transform: scale(1);
+        background-color: gray;
+    }
+    10%{
+        transform: scale(1.1);
+    }
+    20%{
+        transform: scale(1);
+        background-color: cyan;
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    40%{
+        transform: scale(1);
+        background-color: red;
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    60%{
+        transform: scale(1);
+        background-color: green;
+    }
+    90%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+        background-color: gray;
+    }
+}
