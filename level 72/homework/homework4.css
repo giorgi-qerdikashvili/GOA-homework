@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #eee;
+}
+
+/* Clock body */
+.clock {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border: 12px solid #18c7cf;
+  border-radius: 50%;
+}
+
+/* Top ring */
+.clock::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 8px solid #18c7cf;
+  border-radius: 50%;
+
+  left: 50%;
+  top: -48px;
+  transform: translateX(-50%);
+}
+
+/* Center dot */
+.center-dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #18c7cf;
+  border-radius: 50%;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Clock hand */
+.hand {
+  position: absolute;
+
+  width: 6px;
+  height: 60px;
+  background: #18c7cf;
+  border-radius: 999px;
+
+  left: 50%;
+  top: 17%;
+
+  /* place pivot at bottom of hand */
+  transform-origin: bottom center;
+
+  /* initial angle */
+  transform: translateX(-50%) rotate(25deg);
+
+  animation: spin 3s linear infinite;
+}
+
+/* Pause animation when mouse is over clock */
+.clock:hover .hand {
+  animation-play-state: paused;
+}
+
+@keyframes spin {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
