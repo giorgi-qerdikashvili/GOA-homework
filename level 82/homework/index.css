@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 200px;
+    padding: 100px 20px 100px 100px;
+}
+nav{
+    display: flex;
+}
+.thal{
+    height: 45px;
+    width: 150px;
+    position: relative;
+    right: 8%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    gap: 20px;
+}
+.icons img{
+    height: 50px;
+    width: 50px;
+}
+#burg{
+    display: none;
+    height: 80px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+}
+.text1 h1{
+    font-size: 60px;
+    width: 600px;
+}
+.text1 p{
+    font-size: 30px;
+    width: 600px;
+    font-weight: 400;
+}
+.text1 button{
+    font-family: "Roboto", sans-serif;
+    border-radius: 40px;
+    border: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    width: 180px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.invis{
+    display: none;
+    
+}
+.visi{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8% 2% 12%;
+    background-color: rgb(240, 239, 235); 
+}
+.visi img{
+    width: 44%;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+    gap: 60px;
+}
+.sec2 h2{
+    font-size: 46px;
+}
+.sec2 p{
+    font-size: 26px;
+    width: 840px;
+}
+#cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 160px;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: 60px;
+}
+.card h1{
+    font-size: 24px;
+    width: 400px;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3 h4{
+    font-size: 36px;
+
+}
+@media (max-width:1700px){
+    .visi{
+        display: none;
+    }
+    .invis{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(240, 239, 235); 
+        height: 90%;
+    }
+    .text1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        padding: 40px;
+    }
+    .text1 p{
+        margin-top: 20px;
+    }
+    .text1 button{
+        height: 60px;
+        width: 240px;
+        border-radius: 40px;
+    }
+    .text1 img{
+        height: 120%;
+    }
+}
+@media (max-width:1450px) {
+    ul{
+        display: none;
+    }
+    #burg{
+        display: block;
+        color: black;
+    }
+    .thal{
+        height: 45px;
+        width: 150px;
+        position: relative;
+        left: 3%;
+    }
+    .icons{
+        width: 250px;
+    }
+    
+}   
