@@ -1,0 +1,458 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 0px 10%;
+}
+.logo{
+    width: 50px;
+    height: 30px;
+    align-self: center;
+}
+.navbox{
+    display: flex;
+    gap: 75px;
+    font-size: 24px;
+    align-items: center;
+}
+.navbox h4{
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+}
+.button1{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    width: 240px;
+    border: none;
+    background-color: rgb(76, 175, 79);
+    border-radius: 10px;
+    color: white
+}
+.navbox button img{
+    height: 14px;
+}
+.flex{
+    display: flex;
+}
+#ham{
+    display: none;
+    height: 50px;
+}
+.lesson{
+    padding: 40px;
+    background-color: rgb(245, 247, 250);
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    align-items: center;
+    font-size: clamp(20px, 2vw, 40px);
+    gap: 100px;
+}
+.textbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.lesson h4{
+    color: rgb(77, 77, 77);
+}
+.lesson p{
+    font-size: clamp(10px, 1vh);
+}
+.lesson img{
+    height: clamp(340px, 10vw, 1000px);
+}
+.lesson span{
+    color: rgb(76, 175, 79);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 247, 250);
+    padding: 20px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    font-size: clamp(20px, 2vw, 28px);
+    color: rgb(77, 77, 77);
+}
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+}
+.clients img{
+    height: 75px;
+    margin: 10px;
+}
+.sec2 h2{
+    font-size: clamp(20px, 1.5vw 40px);
+}
+.sec3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px 1px rgb(190, 190, 190);
+    transform: scale(1.3);
+    margin: 10px;
+}
+.member img{
+    height: 55px;
+}
+.sec4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    margin: 50px;
+    font-size: clamp(20px, 1vw , 30px);
+}
+.sec4 img{
+    height: clamp(300px, 24vw, 800px);
+}
+.textbox2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 700px;
+}
+
+.grd{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    width: 800px;
+}
+.ingrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+}
+.ingrid img{
+    height: 50px;
+}
+span, .sec6 h2, .sec6 h4{
+    color: rgb(76, 175, 79);
+}
+.sec5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: clamp(14px, 1vw, 30px);
+    background-color: rgb(245, 247, 250);
+    padding: 50px 10px;
+    color: rgb(77, 77, 77);
+}
+.sec6{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 247, 250);
+    padding: 60px;
+    color: gray;
+}
+
+.sec6 p{
+    max-width: 900px;
+}
+#img9{
+    height: 400px;
+}
+.textbox4{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.set{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.set img{
+    height: 50px;
+}
+.textbox4{
+    width: 60vw;
+}
+.sec7{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    gap: 30px;
+}
+.sec7 p{
+    max-width: 650px;
+}
+.sec7 img{
+    height: 350px;
+    border-radius: 20px;
+}
+.inter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.interbox{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+.overlay{
+    z-index: 4;
+    position: relative;
+    bottom: 80px;
+    background-color: rgb(245, 247, 250);
+    width: 440px;
+    padding: 20px;
+    border-radius: 30px;
+    color: rgb(122, 122, 122);
+}
+.upper{
+    text-align: center;
+}
+.overlay h3{
+    margin-top: 20px;
+    color:  rgb(76, 175, 79);
+}
+.sec8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(245, 247, 250);
+    padding: 30px;
+}
+.sec8 h1{
+    font-size: 60px;
+    max-width: 600px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(38, 50, 56);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.bott{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    gap: 10%;
+}
+.textbox5{
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
+    gap: 40px;
+}
+.mail input{
+    background-color: rgb(81, 91, 96);
+    height: 30px;
+    color: white;
+    border: none;
+}
+@media (max-width: 1700px) {
+    .bott{
+        width: 80%;
+    }
+    .textbox2 p{
+        font-size: 16px;
+    }
+    .navbox h4{
+        display: none;
+    }
+    #ham{
+        display: inline;
+    }
+    nav{
+        padding: 0px 5%;
+    }
+    .member{
+        transform: scale(1);
+    }
+    .grd{
+        width: 400px;
+    }
+    
+    
+}
+@media (max-width: 1000px){
+    .bott{
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .textbox5{
+        min-width: 100px;
+    }
+    .sec8 h1{
+        font-size: 40px;
+    }
+    .sec4{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 30px;
+    }
+    .text p{
+        width: inherit;
+        font-size: 16px;
+    }
+    .text{
+        gap: 30px;
+    }
+    .textbox2{
+        align-items: center;
+    }
+    .sec4 img{
+        height: 400px;
+        width: 400px;
+    }
+    .navbox button{
+        display: none;
+    }
+    nav{
+        padding: 0px 10%;
+        height: 100px;
+        scale: 0.9;
+    }
+    .lesson{
+        flex-direction: column;
+        height: 850px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .textbox1{
+        align-items: center;
+    }
+    .sec2{
+        text-align: center;
+        padding: 20px;
+    }
+    .clients{
+        height: 300px;
+    }
+    .member{
+        transform: scale(1);
+    }
+    .sec5{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+    .textbox3 h1{
+        width: 420px;
+        margin-bottom: 20px;
+    }
+    .textbox3 p{
+        font-size: 18px;
+    }
+    .sec6{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    #img9{
+        height: 300px;
+    }
+}
+@media(max-width:670px){
+    .left{
+        display: none;
+    }
+    .right{
+        padding: 20px;
+    }
+    .upper{
+        max-width: 350px;
+    }
+    .interbox img{
+        height: 220px;
+        width: 340px;
+    }
+    .overlay{
+        width: 340px;
+    }
+    .overlay h2{
+        font-size: 20px;
+    }
+    .inter{
+        gap: 0px;
+    }
+}

@@ -353,7 +353,8 @@ footer{
 }
 .aboot{
     display: flex;
-    gap: 150px;
+    gap: 100px;
+    font-size: 24px;
 }
 .aboot1{
     display: flex;
