@@ -1,0 +1,20 @@
+:root{
+    --bg-color: green;
+    --text-color: gray;
+    --text-size: 30px;
+    --btn-color: purple;
+    --btn-text: 30px;
+    --radius: 50%;
+}
+.divus{
+    background-color: var(--bcolor);
+}
+h1{
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+button{
+    background-color: var(--btn-color);
+    border-radius: var(--radius);
+    font-size: var(--btn-text);
+}

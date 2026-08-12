@@ -1,0 +1,15 @@
+:root{
+    --color: purple;
+    --fz: 30px;
+    --brad: 50%;
+    --bg: rgb(246, 159, 159);
+    --widt: 200;
+}
+h2{
+    color: var(--color);
+    font-size: var(--fz);
+    border-radius: var(--brad);
+    background-color: var(--bg);
+    font-weight: var(--widt);
+    display: inline;
+}
