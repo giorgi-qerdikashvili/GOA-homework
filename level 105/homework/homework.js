@@ -3,7 +3,9 @@ let l1 = prices.map(price => {
   return price += 20
 })
 console.log(l1)
-
+// 
+// 
+// 
 let scores = [45, 72, 91, 38, 64, 87]
 let l2 = scores.map(score => {
   if (score<50){
@@ -14,26 +16,41 @@ let l2 = scores.map(score => {
   }
 })
 console.log(l2)
+// 
+// 
+// 
 let names = ["nika", "ana", "gio", "mariam", "luka"]
 let caps = names.map(n =>{
   return n.toUpperCase()
 })
 console.log(caps)
+// 
+// 
+// 
 let numbers = [2, 5, 7, 10, 12]
 let square =  numbers.map(n =>{
   return n*n
 })
 console.log(square)
+// 
+// 
+// 
 numbers = [12, 7, 20, 15, 8, 31, 44]
 numbers.forEach(num => {
   if (num % 2 === 0){
     console.log(num)
   }
 })
+// 
+// 
+// 
 prices = [100, 250, 80, 450, 120]
 let output = prices.forEach(price => {
   console.log(`Product price: ${price}`)
 })
+// 
+// 
+// 
 scores = [95, 67, 42, 81, 55, 30]
 scores.forEach(e => {
   if (e >= 80){
@@ -49,6 +66,9 @@ scores.forEach(e => {
     console.log('Failed')
   }
 });
+// 
+// 
+// 
 prices = [100, 200, 350, 80, 500]
 let prices2 = prices.map(price => {
   return price += 50
@@ -57,6 +77,9 @@ console.log(prices2)
 prices2.forEach(price =>{
   console.log('New price: ' + price)
 })
+// 
+// 
+// 
 scores = [45, 60, 72, 38, 90]
 let scores2 = scores.map(score => {
   if (score < 50){
