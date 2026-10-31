@@ -175,3 +175,27 @@ l2 = Object.values(user)
 console.log(l1.filter(a=>a.length>5).length)
 console.log(l2.filter(a=>typeof a === 'number').length)
 console.log(l2.filter(a=>typeof a === 'boolean').length)
+let numberInfo = {}
+for(let i of l2){
+    if(typeof i === 'number'){
+        numberInfo[l1[l2.indexOf(i)]] = i
+    }
+}
+console.log(numberInfo)
+// 
+// 
+// 
+// 
+let company = {
+    marketing: 12000,
+    development: 35000,
+    design: 9000,
+    support: 7000,
+    sales: 18000,
+    research: 15000
+}
+l1 = Object.keys(company)
+l2 = Object.values(company)
+console.log(l1,l2)
+console.log(l2.filter(a=>a>15000).length)
+console.log(l1[l2.indexOf(Math.max(...l2))])
