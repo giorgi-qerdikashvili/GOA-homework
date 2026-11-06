@@ -1,0 +1,173 @@
+let bankAccout={
+    _owner: "Goga",
+    _balance :2500,
+    _pin: "1234",
+    _isBlocked: false,
+    get own1(){
+        return this._owner
+    },
+    set own2(a){
+        if(a){
+            this._owner = a
+        }
+        else{
+            console.log('Invalid owner name!')
+        }
+    }
+    ,get balg(){
+        return this._balance
+    },
+    set bals(a){
+        if(typeof a === 'number'&& a>0){
+            this._balance = a
+        }
+        else{
+            console.log('Invalid balance')
+        }
+    },
+    get ping(){
+        return 'PIN is hidden'
+    },
+    set pins(a){
+        if(a.length === 4){
+            this._pin = a
+        }
+        else{
+            console.log('Invalid "PIN must contain exactly 4 digits!"')
+        }
+    },
+    get accountStatus(){
+        return this._isBlocked?'Blocked':'Active'
+    },
+    set deposit(a){
+        if(this.accountStatus === 'Blocked'){
+            console.log("Account is blocked!")
+        }
+        else{
+            if(typeof a === 'number'){
+                this._balance+=a
+            }
+            else{
+                console.log("Invalid deposit amount!")
+            }
+        }
+    },
+    set withdraw(a){
+        if(this.accountStatus === 'Blocked'){
+            console.log("Account is blocked!")
+        }
+        else{
+            if(typeof a === 'number' && a <= this._balance){
+                this._balance-=a
+            }
+            else{
+                console.log("Insufficient balance!")
+            }
+        }
+    }
+}
+console.log(bankAccout.own1)
+bankAccout.own2 = 'nino'
+console.log(bankAccout.own1)
+console.log(bankAccout.balg)
+bankAccout.bals = -2 
+console.log(bankAccout.balg)
+console.log(bankAccout.ping)
+bankAccout.pins = '4412'
+console.log(bankAccout.ping)
+console.log(bankAccout.accountStatus)
+bankAccout.deposit ='212'
+bankAccout.withdraw = 22
+// 
+// 
+// 
+// 
+// 
+// 
+let player = {
+    _name: 'shadow',
+    _health: 100,
+    _energy: 80,
+    _level: 1,
+    _experience: 0,
+    _isAlive: true,
+    get nameg(){
+        return this._name
+    },
+    set names(a){
+        if(a.length>3 && typeof a === 'string'){
+            this._name =a
+        }
+        else{
+            console.log("Name must contain at least 3 characters!")
+        }
+    },
+    get healg(){
+        return this._health
+    },
+    set heals(a){
+        if(a >=0 && a <= 100){
+            this._health=a
+            if(this._health === 0){
+                this._isAlive = false
+            }    
+            else if(this._health > 0){
+                this._isAlive = true
+            }
+        }
+        else{
+            console.log("Invalid health!")
+        }
+    },
+    get energ(){
+        return this._energy
+    },
+    set eners(a){
+        if(a >=0 && a<= 100){
+            this._energy = a
+        }
+        else{
+            console.log("Invalid energy!")
+        }
+    },
+    get exp(){
+        return this._experience
+    },
+    set exps(a){
+        if(a >= 0 && typeof a === 'number'){
+            this._experience+=a
+            while (this._experience > 100){
+                this._experience -= 100
+                this._level++
+            }
+        }
+    },
+    get level(){
+        return this._level
+    }
+    ,get status(){
+        if(this._isAlive && this._energy > 0){
+            return 'Ready'
+        }
+        else if(this._isAlive === false){
+            return 'Dead'
+        }
+        else if(this.enery === 0){
+            return "Exhausted"
+        }
+    },
+    set attack(a){
+        
+    }
+}
+console.log(player.nameg)
+player.names = 'brittan'
+console.log(player.nameg)
+console.log(player.healg)
+player.heals = 20
+console.log(player.healg)
+console.log(player.exp)
+player.exps = 212
+console.log(player.exp)
+console.log(player.level)
+console.log(player.status)
