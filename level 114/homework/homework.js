@@ -157,7 +157,15 @@ let player = {
         }
     },
     set attack(a){
-        
+        if (this._isAlive && a>0){
+            if(a<this._energy){
+                console.log('Attack sucsessful')
+                this._energy-=a
+            }
+            else{
+                console.log('Not enough energy!')
+            }
+        }
     }
 }
 console.log(player.nameg)
@@ -171,3 +179,117 @@ player.exps = 212
 console.log(player.exp)
 console.log(player.level)
 console.log(player.status)
+player.attack = 30
+// 
+// 
+// 
+// 
+let storeAccount ={
+    _username: 'Goga',
+    _email: 'goa@gmail.com',
+    _balance: 1800,
+    _password: 'goga1234',
+    _isActive: true,
+    _loginAttempt: 0,
+    get name(){
+        return this._name
+    },
+    set names(a){
+        if(typeof a === 'string',a.length>3){
+            this._name = a
+        }
+        else{
+            console.log('Invalid username')
+        }
+    },
+    get email(){
+        return this._email
+    },
+    set smail(a){
+        if(typeof a ==='string', a.includes('@'),a.slice(a.length-4,a.length) === '.com'){
+            this._email = a
+        }
+        else{
+            console.log('Invalid email')
+        }
+    },
+    get pass(){
+        return this._password
+    },
+    set passs(a){
+        if(a.length > 7, typeof a ==='string',a.includes('0123456789')){
+            this._password=a
+        }
+        else{
+            console.log('weak password')
+        }
+    },
+    get accountStatus(){
+        if(this._isActive){
+            return 'Account is Active'
+        }
+        else{
+            return 'Account is inactive'
+        }
+    },
+    set login(a){
+        if(this._isActive){
+            if(a === this._password){
+                console.log("Login sucsessful")
+                this._loginAttempt = 0
+            }
+            else{
+                this._loginAttempt++
+                console.log('inaccurate password')
+                if(this._loginAttempt >= 3){
+                    this._isActive = false
+                }
+            }
+        }
+        else{
+            return 'Account is inactive'
+        }
+    }, 
+    set purchase(a){
+        if(typeof a ==='number' && a>0){
+            if(this._isActive){
+                if(a<this._balance){
+                    this._balance -=a
+                    console.log('Purchase sucsessful')
+                    if(this._balance < 100){
+                        console.log('Low balance warning!')
+                    }
+                }
+                else{
+                    console.log('insufficient funds')
+                }
+            }
+            else{
+                console.log('Account is inactive')
+            }
+        }
+    },
+    set addBal(a){
+        if(typeof a ==='number' && a>0){
+            if(this._isActive){
+                this._balance += a
+            }
+            else{
+                console.log('Account is inactive')
+            }
+        }
+        else{
+            console.log('Invalid amount!')
+        }
+    }
+}
+console.log(bankAccout.name)
+bankAccout.names= 'luka'
+console.log(bankAccout.email)
+storeAccount.smail = 'gio@gmail.com'
+console.log(bankAccout.pass)
+bankAccout.passs = 'gwvvdass'
+console.log(bankAccout.accountStatus)
+bankAccout.login = 'goga1234'
+bankAccout.purchase = 333
+bankAccout.addBal = -132
