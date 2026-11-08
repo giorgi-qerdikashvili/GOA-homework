@@ -192,7 +192,7 @@ let storeAccount ={
     _isActive: true,
     _loginAttempt: 0,
     get name(){
-        return this._name
+        return this._username
     },
     set names(a){
         if(typeof a === 'string',a.length>3){
@@ -217,11 +217,24 @@ let storeAccount ={
         return this._password
     },
     set passs(a){
-        if(a.length > 7, typeof a ==='string',a.includes('0123456789')){
-            this._password=a
+        let pas = false
+        for(i of a){
+            for(b of '0123456789'){
+                if(b === i){
+                    pas = true
+                }
+            }
+        }
+        if(pas){
+            if(a.length > 7, typeof a ==='string'){
+                this._password=a
+            }
+            else{
+                console.log('weak password')
+            }
         }
         else{
-            console.log('weak password')
+            console.log('no')
         }
     },
     get accountStatus(){
@@ -283,13 +296,13 @@ let storeAccount ={
         }
     }
 }
-console.log(bankAccout.name)
-bankAccout.names= 'luka'
-console.log(bankAccout.email)
+console.log(storeAccount.name)
+storeAccount.names= 'luka'
+console.log(storeAccount.email)
 storeAccount.smail = 'gio@gmail.com'
-console.log(bankAccout.pass)
-bankAccout.passs = 'gwvvdass'
-console.log(bankAccout.accountStatus)
-bankAccout.login = 'goga1234'
-bankAccout.purchase = 333
-bankAccout.addBal = -132
+console.log(storeAccount.pass)
+storeAccount.passs = 'gwvvdass'
+console.log(storeAccount.accountStatus)
+storeAccount.login = 'goga1234'
+storeAccount.purchase = 333
+storeAccount.addBal = -132
