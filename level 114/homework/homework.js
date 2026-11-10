@@ -195,7 +195,7 @@ let storeAccount ={
         return this._username
     },
     set names(a){
-        if(typeof a === 'string',a.length>3){
+        if(typeof a === 'string'&&a.length>3){
             this._name = a
         }
         else{
@@ -206,7 +206,7 @@ let storeAccount ={
         return this._email
     },
     set smail(a){
-        if(typeof a ==='string', a.includes('@'),a.slice(a.length-4,a.length) === '.com'){
+        if(typeof a ==='string' && a.includes('@') && a.slice(a.length-4,a.length) === '.com'){
             this._email = a
         }
         else{
@@ -214,7 +214,7 @@ let storeAccount ={
         }
     },
     get pass(){
-        return this._password
+        return 'Password is protected!'
     },
     set passs(a){
         let pas = false
@@ -226,7 +226,7 @@ let storeAccount ={
             }
         }
         if(pas){
-            if(a.length > 7, typeof a ==='string'){
+            if(a.length > 7&& typeof a ==='string'){
                 this._password=a
             }
             else{
