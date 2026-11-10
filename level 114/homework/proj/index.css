@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+main{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+header{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(176, 176, 176);
+    height: 100%;
+    width: 70vw;
+    padding: 20px;
+}
+header h3{
+    font-size: 40px;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    height: 100%;
+    width: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color:  black;
+}
+header button{
+    background-color: rgb(255, 206, 49);
+    height: 80px;
+    width: 220px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+}
+
+.mainer{
+    width: 80%;
+    display: flex;
+    gap: 120px;
+    flex-direction: column;
+    align-items: center;
+}
+#fx{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+#fx p{
+    font-size: 20px;
+}
+#textr{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20px;
+    gap: 2vw;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+#textr h1{
+    font-size: 4vw;
+}
+#textr p {
+    font-size: 1.4vw;
+    line-height: 1.8;
+    text-align: left;
+}
+.widt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    gap: 2vw;
+}
+.widt input{
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    background-color: #f5f5f5;
+    padding-left: 40px;
+    font-size: 20px;
+    color: gray;
+}
+.widt button{
+    width: 250px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffce31;
+    font-size: 20px;
+    font-weight: 600;
+}
+#imgr img{
+    height: 35vw;
+}
+#trix{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#trix1{
+    width: 50%;
+    display: flex;
+    padding-left: 3vw;
+    justify-content: left;
+}
+#trix1 img{
+    width: 300px; 
+    height: 60px;
+}
+.headx img{
+    display: none;
+}
+#trix2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+@media (max-width:1500px) {
+    #fx{
+       flex-direction: column; 
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       padding-top: 4vw;
+    }
+    #textr{
+        width: 80%;
+        text-align: center;
+        gap: 1vw;
+    }
+    #textr p{
+        font-size: 2vw;
+    }
+    #imgr img{
+        padding: 40px;
+        height: 60vw;
+    }
+    #trix{
+        width: 60vw;
+    }
+    #trix1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+    }
+    #trix2{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .mainer{
+        gap:20px;
+    }
+    .widt input{
+        height: 7vw;
+        width: 40vw;
+    }
+    .widt button{
+        height: 7vw;
+        width: 20vw;
+    }
+    .headx nav{
+        display: none;
+    }
+    .headx img{
+        display: block;
+        height:50px;
+    }
+}
+@media(max-width:1100px){
+    #trix{
+        width: 100%;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+    #imgr img{
+        padding: 0;
+    }
+    .headx h3{
+        font-size: 28px;
+    }
+    .headx button{
+        font-size: 20px;
+        height: 50px;
+        width: 140px;
+    }
+    main{
+        padding-top: 0;
+    }
+}
+@media(max-width:700px){
+    .widt button{
+        font-size: 10px;
+        width: 25%;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .widt input{
+        font-size: 10px;
+        width: 70%;
+        padding: 14px;
+        height: 60px;
+    }
+    #textr{
+        gap: 30px;
+    }
+    #textr h1{
+        font-size: 30px;
+    }
+    #textr p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .headx{
+        gap: 20px;
+        width: 80%;
+
+    }
+    .headx button{
+        display: none;
+    }
+    #imgr img{
+        height: 240px;
+    }
+    #trix1 img{
+        height: 44px;
+    }
+
+}
